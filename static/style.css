@@ -1,0 +1,81 @@
+/* Reset default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Full page background image */
+header {
+    background-image: url('your-background-image.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the form horizontally */
+    color: white;
+}
+
+/* Heading */
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Slight shadow for readability */
+}
+
+/* Tagline */
+.tagline {
+    font-style: italic;
+    font-size: 24px;
+    background: linear-gradient(to right, #c3c0e0, rgb(206, 240, 240));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* For gradient text effect */
+    margin: 10px 0 30px 0;
+}
+
+/* Form Section */
+.container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Input Field */
+.location-input {
+    width: 300px; /* Adjust width as needed */
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    margin-right: 10px;
+    margin-top: 200px;
+    color: #333;
+}
+
+.location-input::placeholder {
+    color: #aaa;
+}
+
+/* Submit Button */
+.submit-button {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 25px;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: darkorange;
+}
