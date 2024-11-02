@@ -62,4 +62,4 @@ def predict():
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))  # Use PORT environment variable or default to 5000
-    app.run(host='100.20.92.101', port=port, debug=True)  # Bind to all IPs
+    app.run(host='0.0.0.0', port=port, debug=True)  # Bind to all IPs
