@@ -65,6 +65,11 @@ Error Handling: If the entered location is not found in the dataset, the app ret
 <br>This screenshot displays a high-risk warning message for landslides based on the input location, alerting users to significant landslide risk.
 
 # Diagrams
-![Workflow Diagram](diagram.jpg) This diagram illustrates the workflow/architecture of the Landslide Prediction System, showing the process from user input to model prediction and result display.
+![Workflow Diagram](diagram.jpg) 
+<br>This diagram illustrates the workflow/architecture of the Landslide Prediction System, showing the process from user input to model prediction and result display.
+## Team Contributions
+Anjana varghese: Conducted data collection and preprocessing for the landslide model.
+Anjana M S: Developed the web application and integrated the prediction functionality.
+Arya Ajay: Managed model training and evaluation, ensuring accurate predictions.
 
 
