@@ -1,5 +1,6 @@
 import pandas as pd
 import joblib
+import os  # Import the os module to access environment variables
 from flask import Flask, request, render_template
 
 app = Flask(__name__)
@@ -31,8 +32,6 @@ def get_features(location):
     # Return the feature values in a list to match model input
     return [rainfall, slope, humidity, soil_moisture]
 
-
-
 @app.route('/predict', methods=['POST'])
 def predict():
     # Get location input from the form
@@ -60,5 +59,7 @@ def predict():
     # Render the results page
     return render_template('result.html', result_message=result_message, location=location,
                            rainfall=rainfall, slope=slope, humidity=humidity, soil_moisture=soil_moisture)
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))  # Use PORT environment variable or default to 5000
+    app.run(host='100.20.92.101', port=port, debug=True)  # Bind to all IPs
