@@ -53,9 +53,18 @@ Error Handling: If the entered location is not found in the dataset, the app ret
  This screenshot shows the main page of the Landslide Prediction System, where users can enter a location to check landslide risk.
 
 2. Prediction Result - Minimal Risk
+
    ![Main Page Screenshot](minimal.jpg)
+   
  <br>This screenshot shows the result page with a message indicating minimal risk of landslides for a given location.
 
-3. Prediction Result - High Risk Warning
-   ![Main Page Screenshot](maximum risk.jpg )
+4. Prediction Result - High Risk Warning
+   
+   ![Main Page Screenshot](maximumrisk.jpg )
+   
 <br>This screenshot displays a high-risk warning message for landslides based on the input location, alerting users to significant landslide risk.
+
+# Diagrams
+![Workflow Diagram](diagram.jpg) This diagram illustrates the workflow/architecture of the Landslide Prediction System, showing the process from user input to model prediction and result display.
+
+
