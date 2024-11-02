@@ -68,8 +68,11 @@ Error Handling: If the entered location is not found in the dataset, the app ret
 ![Workflow Diagram](diagram.jpg) 
 <br>This diagram illustrates the workflow/architecture of the Landslide Prediction System, showing the process from user input to model prediction and result display.
 ## Team Contributions
-Anjana varghese: Conducted data collection and preprocessing for the landslide model.
-Anjana M S: Developed the web application and integrated the prediction functionality.
-Arya Ajay: Managed model training and evaluation, ensuring accurate predictions.
+Anjana varghese: Conducted data collection and preprocessing for the landslide model.<br>
+Anjana M S: Developed the web application and integrated the prediction functionality.<br>
+Arya Ajay: Managed model training and evaluation, ensuring accurate predictions.<br>
 
+Made with ❤️ at TinkerHub Useless Projects 
 
+![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
+![Static Badge](https://img.shields.io/badge/UselessProject--24-24?link=https%3A%2F%2Fwww.tinkerhub.org%2Fevents%2FQ2Q1TQKX6Q%2FUseless%2520Projects)
