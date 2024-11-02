@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Results</title>
+    <link rel="stylesheet" href="/static/result.css">
+</head>
+<body>
+    <header>
+        <h1>PREDICTION RESULTS</h1>
+        <div class="container">
+            <div class="result-box">
+                <h2>{{ result_message }}</h2>
+                <p><strong>Location:</strong> {{ location }}</p>
+                <p><strong>Rainfall (mm):</strong> {{ rainfall }}</p>
+                <p><strong>Slope Angle (°):</strong> {{ slope }}</p>
+                <p><strong>Humidity (%):</strong> {{ humidity }}</p>
+                <p><strong>Soil Moisture (%):</strong> {{ soil_moisture }}</p>
+            </div>
+            <a href="/" class="back-button">Check Another Location</a>
+        </div>
+    </header>
+</body>
+</html>
